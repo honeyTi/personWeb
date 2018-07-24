@@ -1,0 +1,165 @@
+.big-bg {
+    width: 100vw;
+    min-height: 100vh;
+    background: url('../assets/img/big-bg.png') no-repeat center;
+    background-size: 100% 100%;
+    padding-top: 40px;
+}
+.header-list {
+    width: 100vw;
+    height: 5.56vh;
+    display: flex;
+    padding: 0 3.125vw;
+}
+/* logo字体定义 */
+@font-face {
+    font-family: logo-font;
+    src: url('../assets/fonts/GOTHIC.TTF');
+}
+
+.logo, .header-navbar {
+    width: 50%;
+    height: 100%;
+    display: flex;
+}
+.fb-border {
+    display: block;
+    margin-left: 0.52vw;
+    width: 18.1vw;
+    height: 100%;
+    border-left: 1px solid #fff;
+    padding: 0 0.52vw;
+    font-family: logo-font;
+    font-size: 20px;
+    color: #fff;
+}
+.fb-border span {
+    display: inline-block;
+    height: 0.26vh;
+    width: 100%;
+    line-height: 0.26vh;
+}
+.logo-png {
+    display: block;
+    width: 7.81vw;
+    height: 100%;
+}
+.navbar-detail {
+    width: 45.93vw;
+    height: 5.56vh;
+    display: flex;
+}
+.navbar-detail li {
+    display: block;
+    width: 4.167vw;
+    height: 5.56vh;
+    font-weight: 100;
+    font-family: 'mcrosoft yahei';
+    font-size: 30px;
+    text-align: center;
+    line-height: 5.56vh;
+    margin-right: 3.490vw;
+    color: #fff;
+    border-bottom: 4px solid transparent;
+}
+.navbar-detail li:hover, .li-active {
+    color: #47f9e6;
+    border-bottom: 4px solid #47f9e6;
+    font-weight: 550;
+}
+.li-active {
+    color: #47f9e6!important;
+    border-bottom: 4px solid #47f9e6!important;
+    font-weight: 550!important;
+}
+.right-png {
+    width: 50px;
+    height: 50px;
+}
+
+/* banner样式 */
+.banner-content {
+    width: 100vw;
+    height: 79.907vh;
+    padding-top: 11.2vh;
+    background: url('../assets/img/content-bg1.png') no-repeat center;
+    background-size: 100% 100%;
+    display: flex;
+}
+.discribe-content {
+    width: 50vw;
+    height: 59.25vh;
+    padding-top: 9.07vh;
+    padding-left: 3.125vw;
+    color: #fff;
+    position: relative;
+}
+.discribe-content span {
+    display: block;
+}
+.big-title {
+    font-size: 90px;
+    font-weight: 800;
+    font-family: 'Arial';
+    line-height: 9.26vh;
+    height: 9.26vh;
+}
+.discribe-name {
+    font-size: 60px;
+    font-weight: 600;
+    font-family: 'Arial';
+    line-height: 6.48vh;
+    height: 6.48vh;
+}
+.discribe-list {
+    margin-top: 5.56vh;
+    font-size: 40px;
+    font-weight: 200;
+    font-family: 'Arial';
+    line-height: 4.44vh;
+    height: 17.76vh;
+}
+.arrow-btn {
+    position: absolute;
+    bottom: 0;
+    left: 3.125vw;
+    width: 8.85vw;
+    height: 6.48vh;
+    border-radius: 3.24vh;
+    background: #47f9e6;
+    background-image: url('../assets/img/arrow.png');
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.arrow-btn:hover {
+    box-shadow: 0px 0px 7px 5px rgba(71,249,230,0.7);
+}
+
+.silder-content {
+    width: 50vw;
+    height: 59.25vh;
+    position: relative;
+    overflow: hidden;
+}
+.slide-list {
+    position: absolute;
+    width: 50vw;
+    height: 59.25vh;
+    top: 0;
+    left: 3.28vw;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+.slide-list img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 50vw;
+    height: 59.25vh;
+    transition: opacity linear 4s;
+    opacity: 0;
+}
+.img-show {
+    opacity: 1!important;
+}
